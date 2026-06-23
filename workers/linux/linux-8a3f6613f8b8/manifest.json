@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "platform": "linux",
+  "version": "linux-8a3f6613f8b8",
+  "labview_version": "2026",
+  "base_image": "nationalinstruments/labview:latest-linux",
+  "base_digest": "ghcr.io/elijah286/labview-ci-test3-labview@sha256:40d9ea935ca582fda03b55c3dafe9e14295d7c3445885f16f84fcbec721f6fd6",
+  "image_ref": "ghcr.io/elijah286/labview-ci-test3-labview:linux-8a3f6613f8b8",
+  "build_date": "2026-06-23T19:20:34Z",
+  "git_sha": "1762d25895ee84ceb783504d252bdb78c4635766",
+  "run_url": "https://github.com/elijah286/LabVIEW-CI-Test3/actions/runs/28050754907",
+  "vipc": [],
+  "nipkg_raw": "",
+  "nipkg_packages": []
+}
