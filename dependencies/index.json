@@ -1,8 +1,15 @@
 {
   "schema": 1,
   "repo": "elijah286/LabVIEW-CI-Test3",
-  "sha": "1762d25895ee84ceb783504d252bdb78c4635766",
+  "sha": "097e9fe04f2a4a59dfef0709858110f6814c765b",
   "revisions": [
+    {
+      "sha": "097e9fe04f2a4a59dfef0709858110f6814c765b",
+      "short": "097e9fe",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Elijah Kerry",
+      "date": "2026-06-26T03:05:24Z"
+    },
     {
       "sha": "1762d25895ee84ceb783504d252bdb78c4635766",
       "short": "1762d25",
@@ -28,14 +35,20 @@
   "config": {
     "use": "",
     "actions": {},
-    "vipc": []
+    "vipc": [],
+    "dragon": [],
+    "hasVipcList": false,
+    "hasDragonList": false
   },
   "vipc": [
     {
       "path": ".github/labview/vipm/ci-tooling.vipc",
       "role": "core",
       "capability": "",
+      "tooling": true,
       "configured": true,
+      "monitored": true,
+      "locked": true,
       "packages": [
         "dataflow_g_lib_g_image-0.5.0.1",
         "jki_lib_caraya-1.4.4.148",
@@ -132,8 +145,8 @@
       "details": "Batch runner compiled from repo Go source; Linux uses the toimages GHCR image and Windows builds runner.exe in the workflow.",
       "platforms": {
         "windows": {
-          "present": false,
-          "label": ""
+          "present": true,
+          "label": "workflow-built"
         },
         "linux": {
           "present": true,
@@ -148,8 +161,8 @@
       "details": "Renderer used by VI Browser 2.0 to drive LabVIEW and emit position-aware frame JSON.",
       "platforms": {
         "windows": {
-          "present": false,
-          "label": ""
+          "present": true,
+          "label": "workflow-built"
         },
         "linux": {
           "present": true,
