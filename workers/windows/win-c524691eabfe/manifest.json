@@ -1,0 +1,33 @@
+{
+  "schema": 2,
+  "platform": "windows",
+  "version": "win-c524691eabfe",
+  "labview_version": "2026",
+  "base_image": "ghcr.io/elijah286/labview-ci-with-containers-labview-base:2026",
+  "base_digest": "sha256:c46cc369387df74e2874ee6b2994cda5fdd64b6bb6ff3e3cb603e3d8000aa6b7",
+  "seed_image": "ghcr.io/elijah286/labview-ci-with-containers-labview-base:2026",
+  "seed_digest": "sha256:c46cc369387df74e2874ee6b2994cda5fdd64b6bb6ff3e3cb603e3d8000aa6b7",
+  "worker_layer": "seed-only-copy",
+  "copied_from_base": true,
+  "image_ref": "ghcr.io/elijah286/labview-ci-test3-labview:win-c524691eabfe",
+  "build_date": "2026-10-01T10:33:05Z",
+  "git_sha": "097e9fe04f2a4a59dfef0709858110f6814c765b",
+  "run_url": "https://github.com/elijah286/LabVIEW-CI-Test3/actions/runs/36849759394",
+  "vipc": [
+    {
+      "file": "ci-tooling.vipc",
+      "packages": [
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_vi_tester",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_utf_junit_report-1.0.1.43"
+      ],
+      "present": true
+    }
+  ],
+  "vipm_raw": "",
+  "vipm_packages": [],
+  "nipkg_raw": "",
+  "nipkg_packages": []
+}
